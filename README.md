@@ -20,4 +20,11 @@ The script processes and filters ADMA data, calculates errors, and creates visua
 <br>
 __Sta_error_countplot_distribution__ - The below error distribution represents the Positional error of mast measurements with repsective to the ground truth recording measured by ADMA. The Positional error range is split into 30 bins and the points fall into their respective bins. The image also shows Mean which is about 1.96 m and the Mode (Maximum number of points in a bin) is close to 25 at 2.4 m. <br>
 ![Sta_error_countplot_distribution](https://github.com/aayushmistry/Car2X-/blob/main/Sta_error_countplot_distribution.png)
- 
+ <br>
+ __Static_mast_recording__ - This is the ROSbag Global topics messages for the Static test.
+<br>
+__GNSS Static Data__ - This is a GNSS raw Data for the Static test (data which was recorded by ADMA slim).
+<br>
+__Dynamic_mast_recording__ - This is the ROSbag Global topics messages for the Dynamic test.
+<br>
+__GNSS_Dynamic_Data__ - This is a GNSS raw Data for the Dynamic test (data which was recorded by ADMA slim).
